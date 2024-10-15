@@ -1,4 +1,4 @@
-const { transaction, transaction_error, user, user_error, server, server_error } = require('./transaction'); // Adjust path if needed
+const { transaction, transaction_error } = require('./transaction'); // Adjust path if needed
 
 const testCases = [
     {
@@ -46,12 +46,15 @@ const testCases = [
             currency: 'USD'
         },
         expectedError: transaction_error,
-        expectedCode: 400, // Assuming 'NotEnougthMoney' throws code 400
+        expectedCode: 400,
         expectedName: 'NotEnougthMoney'
     },
     // ... Add more test cases ...
 ];
 
+/**
+ * Standart tests for transactions
+ */
 async function testTransaction() {
     for (const testCase of testCases) {
         console.log(`\nTest: ${testCase.description}`);
