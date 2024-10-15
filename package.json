@@ -1,0 +1,11 @@
+{
+  "name": "my-transactions",
+  "version": "0.0.1",
+  "description": "Transaction module with tests",
+  "main": "transaction.js",
+  "scripts": {
+    "test": "tests.js"
+  },
+  "author": "Vandi",
+  "license": "ISC"
+}
