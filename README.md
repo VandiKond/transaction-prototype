@@ -3,7 +3,7 @@
 ## The idea of the project:
 
 - A prototype for people that don't realy know how to make a transaction service
-- A great expireance for future projects
+- A great expireance and base for future projects
 
 ## How to use? 
 
