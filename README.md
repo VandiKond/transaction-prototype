@@ -8,7 +8,7 @@
 ## How to use? 
 
 - Downdload git -> [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) <-
-- Clone the project `git clone https://github.com/VandiDivandiLev/transaction-prototype.git`
+- Clone the project `git clone https://github.com/VandiKond/transaction-prototype.git`
 
 ## To test functions:
 - `node tests.js`
